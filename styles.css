@@ -151,9 +151,10 @@ ul {
       
     }
 
-.letters-q h2 {
+.letters-q > h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
+    color: rgb(165, 180, 64);
 } 
 
 
@@ -207,3 +208,90 @@ ul {
     font-size: large;
 
 }
+
+.season {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(46, 140, 216);
+}
+
+
+#pp {
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(109, 24, 24);
+
+
+}
+
+#wt {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:30px;
+    color: rgb(113, 59, 102);
+
+
+}
+
+#wt2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:30px;
+    color: rgb(201, 107, 120);
+
+
+}
+#wt11{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(29, 50, 142);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+.shop1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+
+.shop1 img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    
+
+}
+
+.shop1 img:hover {
+    transform: scale(1.05);
+}
+
+.abtimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+
+.abtimg img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    
+
+}
+
+.abtimg img:hover {
+    transform: scale(1.05);
+}
+
+
