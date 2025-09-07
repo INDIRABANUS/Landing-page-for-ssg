@@ -1,0 +1,209 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: rgb(218, 214, 214);
+    padding: 15px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: 0.3s;
+
+}
+
+
+
+.navbar a:hover {
+    background: rgb(159, 159, 180);
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 30px;
+    
+}
+#logoimg {
+    border:3px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(13, 38, 254, 0.2);
+     
+
+}
+
+#brand {
+    font-family: fantasy;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(91, 144, 168);
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+
+.gallery img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    
+
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+
+}
+.table-booking-form {
+
+      margin: 0;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Prevent tiling */
+      font-family: cursive;
+      color: rgb(33, 12, 115);
+      border: none;
+      border-radius: 30%;
+      font-size: large;
+      text-box: ;
+
+}
+.bg {
+    background-image: url(./img/flight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    border-radius: 5%;
+
+
+
+}
+.table-booking-form :hover {
+    transform: scale(1.05);
+
+}
+
+#hquotes {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: lighter;
+    color: rgb(76, 41, 109);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+
+}
+
+#quotes {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: cursive;
+    color: rgb(33, 177, 182);
+    font-size: 25px;
+
+
+}
+
+.button {
+      background-color: #6c94c1; 
+      color: white;             
+      padding: 12px 24px;     
+      border: none;             
+      border-radius: 20px;      
+      cursor: pointer;         
+      transition: 0.3s;   
+      text-decoration: none; 
+      display: flex;
+      align-items: center; 
+      justify-content: center;  
+      
+    }
+
+.letters-q h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+} 
+
+
+.Popular {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 30px;
+
+
+}
+
+.Popular img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    justify-content: center;
+
+}
+
+.Popular img:hover {
+    transform: scale(1.05);
+}
+
+#para {
+
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.main {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: rgb(67, 41, 82);
+
+}
+
+#smb {
+    color:black;
+    background-color: rgb(82, 167, 228);
+    font-family: cursive;
+    border: none;
+    border-radius: 30%;
+    font-size: large;
+
+}
