@@ -8,16 +8,16 @@
 </head>
 
 <body>
-    <div class="bg">
+    
     <header>
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="destinations.html">DESTINATIONS</a></li>
-                <li><a href="about.html" >ABOUT</a></li>
-                <li><a href="shop.html">SHOP</a></li>
                 <li><a href="book.html">BOOK NOW!</a></li>
+                <li><a href="shop.html">SHOP</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="about.html" >ABOUT</a></li> 
             </ul>
         </nav>        
 
@@ -31,33 +31,28 @@
         align-items: center;  " id="brand"> 
         TRAVEL X </h1>
     </header>
-    
-    <div>
-        <center>
+    <div class="bg">
+    <div class="formbox">
+        
         <form class="table-booking-form">
             <table>
                 
             <h3 class="main">BOOK YOUR FLIGHTS</h3>
-            <tr></tr><p>USER NAME:<input type="text" name="username"  placeholder="NAME" ></p></tr>
+            <p>USER NAME:<input type="text" name="username"  placeholder="" ></p>
 
-            <tr><p>DESTINATION :<input type="text" name="place"  placeholder="DESTINATION" ></p></tr>
-            <tr><p>DATE:
+            <p>DESTINATION :<input type="text" name="place"  placeholder="" ></p>
+            <p>FROM DATE:
                 <input type="date">
-            </p></tr>
-            <tr><p><h3>TRANSPORT MODE:</h3>
-                <tr><input type="radio" name="transpot mode" value="1ST CLASS FLIGHTS">1ST CLASS FLIGHTS </tr><br>
-                <tr><input type="radio" name="transpot mode" value="BUSINESS">BUSINESS </tr><br>
-                <tr><input type="radio" name="transpot mode" value="ECONOMY">ECONOMY</tr><br>
-                <tr><p><input id="smb" type="submit"></p></tr>
-
-
-            </p></tr>
+            </p>
+            <P>TO DATE:<input type="date"> </P>
+            <p>PEOPLE: <input type="text"></p>
+            <button type="submit" class="button">SEARCH FOR FLIGHTS</button>
            
 
            </table>
 
         </form>
-        </center>
+        
     </div>
 </div>
     

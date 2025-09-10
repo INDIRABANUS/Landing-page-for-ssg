@@ -5,14 +5,13 @@ ul {
 }
 
 .navbar {
-    background: rgb(218, 214, 214);
+    background: rgb(42, 42, 117);
     padding: 15px;
 }
 .navbar ul {
     display: flex;
     justify-content: center;
     gap: 20px;
-
 }
 
 .navbar a {
@@ -79,15 +78,12 @@ ul {
     transform: scale(1.05);
 }
 
-.logo img:hover {
-    transform: scale(1.05);
 
-}
 .table-booking-form {
 
       margin: 0;
-      background-position: center; /* Center the image */
-      background-repeat: no-repeat; /* Prevent tiling */
+      background-position: center; 
+      background-repeat: no-repeat;
       font-family: cursive;
       color: rgb(33, 12, 115);
       border: none;
@@ -97,20 +93,20 @@ ul {
 
 }
 .bg {
+    display: flex;
+    position: relative;
     background-image: url(./img/flight.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     height: 100vh;
     border-radius: 5%;
+    height: fit-content;
 
 
 
 }
-.table-booking-form :hover {
-    transform: scale(1.05);
 
-}
 
 #hquotes {
 
@@ -137,7 +133,7 @@ ul {
 }
 
 .button {
-      background-color: #6c94c1; 
+      background-color: #08223f; 
       color: white;             
       padding: 12px 24px;     
       border: none;             
@@ -152,41 +148,19 @@ ul {
     }
 
 .letters-q > h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    color: rgb(165, 180, 64);
+    color: rgb(193, 88, 27);
+    text-align: center;
 } 
 
 
-.Popular {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-    padding: 30px;
-
-
-}
-
-.Popular img {
-    width: 250px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    justify-content: center;
-
-}
-
-.Popular img:hover {
-    transform: scale(1.05);
-}
 
 #para {
 
     font-family: cursive;
     font-size: 25px;
+    color: rgb(35, 72, 72);
 }
 
 .main {
@@ -211,8 +185,8 @@ ul {
 }
 
 .season {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(46, 140, 216);
+    font-family: cursive;
+    color: rgb(19, 37, 53);
 }
 
 
@@ -235,13 +209,14 @@ ul {
 #wt2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:30px;
-    color: rgb(201, 107, 120);
+    color: rgb(104, 33, 110);
+    justify-content: center;
 
 
 }
 #wt11{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(29, 50, 142);
+    color: rgb(70, 26, 81);
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -274,7 +249,7 @@ ul {
 .abtimg {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     gap: 20px;
     margin-top: 20px;
     padding: 30px;
@@ -295,17 +270,19 @@ ul {
     transform: scale(1.05);
 }
 
-* {
+/* * {
     padding: 0;
     margin: 0;
-}
+} */
 
 .cont {
     font-family: cursive;
     font-size: 25px;
-    color: aliceblue; 
-    background-image: url(./img/c-bg.jpg);
+    color: white; 
+    background-image: url(./img/bg.final.webp);
     display: flex;
+    background-position: center;
+
     
 
     background-repeat: no-repeat;
@@ -316,15 +293,179 @@ ul {
 
     padding: 10px;
     gap: 50px;
-
-}
-
-.cont {
     justify-content: center;
     padding: 10px;
+
+
+    text-align: center;
+
 }
+
 
 #c1 {
     padding: 30px;
+    
+}
+
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+  color: white;
+}
+
+.info h2 {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    font-family: fantasy;
+    font-weight: lighter;
+}
+
+.info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#view {
+    color: rgba(240, 248, 255, 0.498);
+}
+
+.popimgs {
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+.formbox {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background:rgba(0, 0, 0, 0.174);
+  border-radius: 12px;
+}
+
+.formbox input,
+.formbox textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #e2e1e8e1;
+  border-radius: 8px;
+  font-size: 14px;
+  transition:0.3s;
+  border: none;
+  background-color: rgba(187, 217, 238, 0.388);
+}
+
+
+.homebutton button {
+    align-items: center;
+    border: none;
+    background-color: rgb(136, 181, 223);
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #172e45;
+}
+
+
+
+.g1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+
+.g1 img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    
+
+}
+
+.g1 img:hover {
+    transform: scale(1.05);
+}
+
+.click-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;    
+
+
+   padding:20px;
+   font-size: 24px;       
+   background-color: rgb(40, 40, 65); 
+   color: white;           
+   border: none;           
+   border-radius: 10px;   
+   cursor: pointer;  
+ 
+   
+   
+   width: 200px;       
+   height: 30px;
+ }
+.click-button:hover {
+     background-color: rgb(76, 76, 105);
+}
+
+.popular-word {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(202, 94, 27); 
     
 }
