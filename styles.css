@@ -1,3 +1,6 @@
+* {
+    padding: o;
+}
 ul {
     list-style: none;
     margin: 0;
@@ -144,6 +147,7 @@ ul {
       display: flex;
       align-items: center; 
       justify-content: center;  
+      margin: auto;
       
     }
 
@@ -270,10 +274,6 @@ ul {
     transform: scale(1.05);
 }
 
-/* * {
-    padding: 0;
-    margin: 0;
-} */
 
 .cont {
     font-family: cursive;
@@ -310,13 +310,14 @@ ul {
 
 .card {
   position: relative;
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
   cursor: pointer;
   transition: transform 0.3s;
+  margin: auto;
 }
 
 .card:hover {
@@ -341,20 +342,20 @@ ul {
 }
 
 .info h2 {
-    color: white;
+    color: whitesmoke);
     margin: 0;
-    font-size: 18px;
+    font-size: 30px;
     font-family: fantasy;
     font-weight: lighter;
 }
 
 .info p {
   margin: 0;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 #view {
-    color: rgba(240, 248, 255, 0.498);
+    color: rgba(240, 248, 255, 0.724);
 }
 
 .popimgs {
@@ -363,6 +364,7 @@ ul {
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    margin: auto;
 
 }
 
@@ -396,6 +398,7 @@ ul {
     color: white;
     border-radius: 20px;
     justify-content: center;
+    margin: auto;
 }
 
 form input, 
@@ -409,7 +412,7 @@ form textarea {
 }
 
 button:hover {
-  background: #172e45;
+  background: #252e38;
 }
 
 
@@ -447,19 +450,20 @@ button:hover {
 
    padding:20px;
    font-size: 24px;       
-   background-color: rgb(40, 40, 65); 
+   background-color: rgb(167, 198, 239); 
    color: white;           
    border: none;           
    border-radius: 10px;   
    cursor: pointer;  
  
-   
+   margin: auto;
    
    width: 200px;       
    height: 30px;
+   text-decoration: none;
  }
 .click-button:hover {
-     background-color: rgb(76, 76, 105);
+     background-color: rgba(74, 65, 162, 0.584);
 }
 
 .popular-word {
