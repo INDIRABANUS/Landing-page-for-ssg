@@ -92,7 +92,6 @@ ul {
       border: none;
       border-radius: 30%;
       font-size: large;
-      text-box: ;
 
 }
 .bg {
@@ -342,7 +341,7 @@ ul {
 }
 
 .info h2 {
-    color: whitesmoke);
+    color: whitesmoke;
     margin: 0;
     font-size: 30px;
     font-family: fantasy;
@@ -391,16 +390,6 @@ ul {
 }
 
 
-.homebutton button {
-    align-items: center;
-    border: none;
-    background-color: rgb(136, 181, 223);
-    color: white;
-    border-radius: 20px;
-    justify-content: center;
-    margin: auto;
-}
-
 form input, 
 form textarea {
   width: 100%;
@@ -445,25 +434,26 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: auto;    
+    margin-top: auto;  
+    outline: none;  
+    padding: 20px;
+    font-size: 24px;       
+    background-color: rgb(18, 54, 103);
+    border: none;           
+    border-radius: 10px;   
+    cursor: pointer;  
+    margin: auto;   
+    width: 200px;       
+    height: 30px;
+}
 
+.click-button a {
+    color: white;           
+    text-decoration: none;
+}
 
-   padding:20px;
-   font-size: 24px;       
-   background-color: rgb(167, 198, 239); 
-   color: white;           
-   border: none;           
-   border-radius: 10px;   
-   cursor: pointer;  
- 
-   margin: auto;
-   
-   width: 200px;       
-   height: 30px;
-   text-decoration: none;
- }
 .click-button:hover {
-     background-color: rgba(74, 65, 162, 0.584);
+    background-color: rgb(41, 87, 105);
 }
 
 .popular-word {
@@ -472,4 +462,43 @@ button:hover {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(202, 94, 27); 
     
+}
+footer {
+    background-color: #252e38;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+.home-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;  
+    outline: none;  
+    padding: 20px;
+    font-size: 24px;       
+    background-color: rgb(18, 54, 103);
+    border: none;           
+    border-radius: 10px;   
+    cursor: pointer;  
+    margin: auto;   
+    width: 200px;       
+    height: 30px;
+    box-shadow:2px 2px 5px #14171a;
+}
+
+.home-button a {
+    color: white;           
+    text-decoration: none;
+   
+}
+
+.home-button:hover {
+    background-color: rgb(41, 87, 105);
 }
